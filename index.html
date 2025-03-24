@@ -1,61 +1,73 @@
 <!DOCTYPE html>
-<html lang=\"es\">
+<html lang="es">
 <head>
-    <meta charset=\"UTF-8\">
-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-    <title>SrSisco | Sobre mí</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Presentación</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
-        body, html {
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
             height: 100%;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url('https://source.unsplash.com/random/1920x1080?cherry-blossom-forest') no-repeat center center/cover;
+            background: url('https://source.unsplash.com/random/1920x1080?cherry-blossom') no-repeat center center/cover;
         }
         .container {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(8px);
-            border-radius: 15px;
-            padding: 30px;
-            color: #fff;
-            max-width: 550px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            color: #ffffff;
+            max-width: 600px;
             text-align: center;
-            box-shadow: 0 8px 32px 0 rgba(0,0,0,0.3);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
         }
         h1 {
+            font-size: 2.5rem;
             margin-bottom: 15px;
-            font-size: 2em;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
         }
         .section {
             margin-top: 25px;
         }
+        .section h3 {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
         a {
-            color: #ffccff;
+            color: #ffd1dc;
             text-decoration: none;
         }
         iframe {
             border-radius: 12px;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-    <div class=\"container\">
-        <h1>¡Hola, soy SrSisco!</h1>
-        <p>Gracias por visitar mi espacio personal. Aquí comparto un poco sobre mí y lo que disfruto en mi día a día y siempre estoy dispuesto a conversar y conocer gente nueva.</p>
+    <div class="container">
+        <h1>¡Hola! Soy [Tu Nombre]</h1>
+        <p>Bienvenido a mi rincón personal, un lugar donde comparto quién soy y lo que disfruto. Me apasiona [algo sobre ti], siempre abierto a nuevas amistades y conversaciones interesantes.</p>
 
-        <div class=\"section\">
-            <h3>Encuéntrame en Discord</h3>
-            <p>Puedes agregarme usando: <strong>el_llamarada</strong></p>
-            <p><small>(¡Estoy siempre disponible para charlar!)</small></p>
+        <div class="section">
+            <h3>Discord</h3>
+            <p>Añádeme: <strong>[TuUsuario#1234]</strong></p>
         </div>
 
-        <div class=\"section\">
-            <h3>Mi música actual en Spotify</h3>
-            <iframe src=\"https://spotify-github-profile.vercel.app/api/view?uid=SrSisco&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false\" width=\"100%\" height=\"350\" frameborder=\"0\" allowtransparency=\"true\"></iframe>
-            <p><small>(Esta sección se actualiza automáticamente con mi actividad de Spotify)</small></p>
+        <div class="section">
+            <h3>Escuchando en Spotify</h3>
+            <iframe src="https://spotify-github-profile.vercel.app/api/view?uid=[TU_USER_SPOTIFY]&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false" width="100%" height="350" frameborder="0" allowtransparency="true"></iframe>
         </div>
     </div>
 </body>
